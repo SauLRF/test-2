@@ -1,0 +1,60 @@
+body {
+  display: flex;
+  justify-content: center;
+  width:1400px;
+ background-color: #f2f5eb;
+}
+
+.container {
+  display:flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  align-items: center;
+  width:auto;
+  padding-top:30px;
+}
+.toolbar {
+  width:500px;
+  display:flex;
+  justify-content:center;
+  font-family:"Open Sans";
+  margin-bottom:20px;
+}
+.toolbar label,.title-select {
+  display:block;
+  box-sizing: border-box;
+  height:30px;
+  padding:5px;
+  background-color:white;
+  border: 2px solid #a4a6a1;
+  font-family:"Open Sans";
+  color: #193945;
+  margin-right:5px;
+}
+input#color-select {
+  box-sizing: border-box;
+  width:30px;
+  height:30px;
+  padding:2px;
+  border-radius: 5px;
+  margin-right:20px;
+  background-color:white;
+  border: 2px solid #a4a6a1;
+}
+
+.amount-points {
+  width:50px;
+  padding-left:8px;
+  background-color:white;
+  border: 2px solid #a4a6a1;
+  margin-right:25px;
+}
+button[name=reset] {
+  width:60px;
+  box-sizing: border-box;
+  height:30px;
+  border-radius: 5px;
+  margin-right:20px;
+  background-color:white;
+  border: 2px solid #a4a6a1;
+}
